@@ -1,7 +1,7 @@
 import random
 
 
-class Trivia_generator:
+class TriviaGenerator:
 
     def __init__(self):
         # Initial pool of questions and their answers
