@@ -248,7 +248,7 @@ class Server:
                 garbage = tcp_socket.recv(1024)  # Attempt to receive data from the socket
                 if not garbage:  # If no data is received, break out of the loop
                     break
-            except socket.timeout:
+            except Exception as e:
                 break
 
     def play_game(self, clients):
