@@ -9,7 +9,6 @@ This project is a **Trivia Game** designed for the IDC course at Ben-Gurion Univ
 - [Installation and Setup](#installation-and-setup)
 - [Usage](#usage)
 - [File Descriptions](#file-descriptions)
-- [License](#license)
 
 ## Project Overview
 
@@ -63,7 +62,3 @@ The goal of this project is to enable a trivia game where a server sends questio
 - **`style.py`**: Defines text styles (colors and formats) for terminal output, enhancing user experience.
 - **`trivia_generator.py`**: Defines the `TriviaGenerator` class, managing the trivia question pool and ensuring each question is unique per session.
 - **`README.md`**: Documentation for project setup, usage, and features.
-
-## License
-
-This project is licensed under the MIT License.
